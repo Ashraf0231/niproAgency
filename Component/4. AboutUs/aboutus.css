@@ -1,0 +1,35 @@
+.aboutSection {
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.aboutImage {
+}
+.aboutImage img {
+}
+.aboutText {
+}
+.aboutText h1 {
+  margin-bottom: 40px;
+}
+.aboutText p {
+  margin-bottom: 40px;
+}
+.aboutText a {
+  padding: 18px 30px;
+  font-weight: 600;
+  color: var(--Color-2);
+  border: 1px solid var(--Color-2);
+  text-decoration: none;
+}
+.aboutText a span {
+  margin-left: 20px;
+}
+.aboutText a span i {
+}
+.aboutButton {
+  margin-top: 60px;
+}
+.aboutButton:hover a {
+  border-color: var(--Color-1);
+  color: var(--Color-1);
+}

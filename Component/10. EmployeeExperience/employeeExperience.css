@@ -1,0 +1,79 @@
+.experienceSection {
+  margin-bottom: 100px;
+}
+.experienceSection .employeeImage {
+  padding-left: 18px;
+  padding-right: 6px;
+  padding-top: 40px;
+}
+.experienceSection .employeeImage img {
+  width: 100%;
+
+  position: relative;
+}
+.experienceText {
+  padding-right: 18px;
+  padding-top: 40px;
+}
+.experienceText h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--Color-1);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.experienceText h5 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300 !important;
+}
+.experienceText h6 {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 300 !important;
+  color: var(--Color-1);
+}
+.experienceText p {
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+.buttonPart {
+  background-color: var(--Color-3);
+}
+
+.box1,
+.box3 {
+  padding: 40px 20px;
+  writing-mode: vertical-rl;
+}
+.box2 {
+  padding: 60px 20px;
+}
+.prevBtn1,
+.nextBtn1 {
+  padding: 0;
+}
+.experience_prevnext {
+  text-transform: uppercase;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.employeeImage {
+}
+.doubleQuote {
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  color: var(--Color-1);
+}
+.doubleQuote i {
+  font-size: 30px;
+}
+.indicator-2 {
+  display: none;
+}

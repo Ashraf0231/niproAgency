@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="stylesheet" href="/Component/1. Header/header.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="/Component/3. ServiceSection/service.css" />
+    <link rel="stylesheet" href="/Component/4. AboutUs/aboutus.css" />
+    <link rel="stylesheet" href="/Component/5. RecentWork/recent.css" />
+    <link rel="stylesheet" href="/Component/6. Choose/choose.css" />
+    <link rel="stylesheet" href="/Component/7. WhoWorkWithUs/employee.css" />
+    <link rel="stylesheet" href="/Component/8. Pricing/pricing.css" />
+    <link rel="stylesheet" href="/Component/9. RichText/richText.css" />
+    <link
+      rel="stylesheet"
+      href="/Component/10. EmployeeExperience/employeeExperience.css"
+    />
+    <link rel="stylesheet" href="/Component/11. ContactUs/contactUs.css" />
+    <link rel="stylesheet" href="/Component/12. socialMedia/social.css" />
+    <link rel="stylesheet" href="./css/MediaQuery/xxl.css" />
+    <link rel="stylesheet" href="./css/MediaQuery/xl.css" />
+    <link rel="stylesheet" href="./css/MediaQuery/lg.css" />
+    <link rel="stylesheet" href="./css/MediaQuery/md.css" />
+    <link rel="stylesheet" href="./css/MediaQuery/sm.css" />
+    <link rel="stylesheet" href="/css/Media/large.css" />
+    <link rel="stylesheet" href="/css/Media/medium.css" />
+    <link rel="stylesheet" href="/css/Media/small.css" />
+    <link rel="stylesheet" href="/css/Media/xtraLarge.css" />
+    <link rel="stylesheet" href="/css/Media/XtraSmall.css" />
+
+    <!-- bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome Script -->
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+
+    <!-- GOogle font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- pe-icon -->
+    <link rel="stylesheet" href="./pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+    <link rel="stylesheet" href="./pe-icon-7-stroke/css/helper.css" />
+
+    <title>Nipro Agency</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <section class="header-section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="#">
+              <!-- image tag is needed 
+                to replace default NAVBAR text -->
+              <img class="img-fluid logo" src="./image/logo.png" alt="Nipro" />
+            </a>
+
+            <!-- togglemenu button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#custom_menu"
+              aria-controls="custom_menu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- menubar starts -->
+            <div class="collapse navbar-collapse menu" id="custom_menu">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <!-- menu bar end -->
+              <!-- search btn -->
+              <div class="dropdown search">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="search-id"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="search-id">
+                  <div class="search-box">
+                    <form action="#">
+                      <div class="row justify-content-around g-3">
+                        <div class="col-10">
+                          <input
+                            type="text"
+                            class="form-control search-text"
+                            placeholder="Search Here"
+                          />
+                        </div>
+                        <div class="col-2">
+                          <button type="submit" class="btn button searchbtn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- header section end-->
+
+    <!-- slider section -->
+    <section class="slider-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div
+              id="customSlider"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <!-- single slider -->
+                <div class="carousel-item active">
+                  <div class="customSlider">
+                    <h1 class="m-0">We Have Talented Team</h1>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. hello Lorem Ipsum has been the
+                      industry's stanard dummy text ever since the hello
+                      bossLorem Ipsum is simply dummy text of the printing
+                    </p>
+                    <button type="button">
+                      Learn More
+                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="customSlider">
+                    <h1 class="m-0">We Have Talented Team1</h1>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. hello Lorem Ipsum has been the
+                      industry's stanard dummy text ever since the hello
+                      bossLorem Ipsum is simply dummy text of the printing
+                    </p>
+                    <button type="button">
+                      Learn More
+                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="customSlider">
+                    <h1 class="m-0">We Have Talented Team2</h1>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. hello Lorem Ipsum has been the
+                      industry's stanard dummy text ever since the hello
+                      bossLorem Ipsum is simply dummy text of the printing
+                    </p>
+                    <button type="button">
+                      Learn More
+                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- next prev`button -->
+
+              <button
+                type="button"
+                class="btn_prevnext"
+                data-bs-target="#customSlider"
+                data-bs-slide="prev"
+              >
+                Prev
+              </button>
+              <span>|</span>
+              <span>|</span>
+              <span>|</span>
+              <button
+                type="button"
+                class="btn_prevnext"
+                data-bs-target="#customSlider"
+                data-bs-slide="next"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  slider section end -->
+
+    <!-- serviceSection-->
+    <div class="serviceSection">
+      <div class="container">
+        <!-- heading Part row -->
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="commonTitle text-center">
+              <div class="commonBar"></div>
+              <div class="common-h1">Welcome to Nipro</div>
+            </div>
+          </div>
+        </div>
+        <!-- paragraph row -->
+        <div class="row">
+          <div class="col-12">
+            <div class="paragraphService text-center">
+              <p class="commonParagraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever he to since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised
+                in the er including versions of Lorem Ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Service Card row -->
+        <div class="row">
+          <!-- single card -->
+          <div class="col-lg-3 col-md-6">
+            <div class="serviceCard text-center">
+              <div class="serviceIcon">
+                <i class="pe-7s-diamond"></i>
+              </div>
+              <h2>Branding</h2>
+              <hr />
+              <p>
+                Lorem Ipsum is simply dummy the printing typeset industry Lorem
+                Ipsum has been the
+              </p>
+              <a href="#">
+                More
+                <span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- single card -->
+
+          <!-- single card -->
+          <div class="col-lg-3 col-md-6">
+            <div class="serviceCard text-center">
+              <div class="serviceIcon">
+                <i class="pe-7s-rocket"></i>
+              </div>
+              <h2>UI & UX</h2>
+              <hr />
+              <p>
+                Lorem Ipsum is simply dummy the printing typeset industry Lorem
+                Ipsum has been the
+              </p>
+              <a href="#">
+                More
+                <span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- single card -->
+
+          <!-- single card -->
+          <div class="col-lg-3 col-md-6">
+            <div class="serviceCard text-center">
+              <div class="serviceIcon">
+                <i class="pe-7s-ribbon"></i>
+              </div>
+              <h2>App Design</h2>
+              <hr />
+              <p>
+                Lorem Ipsum is simply dummy the printing typeset industry Lorem
+                Ipsum has been the
+              </p>
+              <a href="#">
+                More
+                <span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- single card -->
+
+          <!-- single card -->
+          <div class="col-lg-3 col-md-6">
+            <div class="serviceCard text-center">
+              <div class="serviceIcon">
+                <i class="pe-7s-shield"></i>
+              </div>
+              <h2>Web Design</h2>
+              <hr />
+              <p>
+                Lorem Ipsum is simply dummy the printing typeset industry Lorem
+                Ipsum has been the
+              </p>
+              <a href="#">
+                More
+                <span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- single card -->
+        </div>
+      </div>
+    </div>
+    <!-- serviceSection ENd -->
+
+    <!-- About Section -->
+    <div class="aboutSection">
+      <div class="container">
+        <div class="row">
+          <!-- About Image Part -->
+          <div class="col-lg-5 col-12">
+            <div class="aboutImage">
+              <img src="/image/aboutus.jpg" alt="" />
+            </div>
+          </div>
+          <!-- About Image Part end -->
+          <!-- about text Part -->
+          <div class="col-lg-7 col-12">
+            <div class="aboutText">
+              <h1 class="common-h1">About US</h1>
+              <p class="commonParagraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industr hello Ipsum has been the industry's standard dummy text
+                ever since the 1500s, ian unknown printer took a galley omen
+                book. It has survived not only five ies, but also the leap into
+                electronic typesetting, remaining essentially un also the leap
+                into electronic typesetting, remaining essentially un
+              </p>
+              <p class="commonParagraph">
+                with the release of Letraset sheets containing Lorem Ipsum
+                passages, heo and more recently with desktop publishing software
+                like A PageMaker including versions of Lorem Ipsum.
+              </p>
+              <div class="aboutButton">
+                <a href="#">
+                  Learn More
+                  <span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- about text Part end -->
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section End -->
+
+    <!-- recent work -->
+    <div class="recentWorkSection">
+      <div class="container">
+        <!-- header part -->
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="commonTitle text-center">
+              <div class="commonBar"></div>
+              <div class="common-h1">Recent Work</div>
+            </div>
+          </div>
+        </div>
+        <!-- header part end -->
+        <!-- filter menu part -->
+        <div class="row">
+          <div class="col-12">
+            <ul class="nav nav-tabs justify-content-center">
+              <li class="nav-item filter-1">
+                <a class="nav-link active" data-bs-toggle="tab">All</a>
+              </li>
+              <li class="nav-item filter-2">
+                <a class="nav-link" data-bs-toggle="tab">App Design</a>
+              </li>
+              <li class="nav-item filter-3">
+                <a class="nav-link" data-bs-toggle="tab">Web Design</a>
+              </li>
+              <li class="nav-item filter-4">
+                <a class="nav-link" data-bs-toggle="tab">UI Design</a>
+              </li>
+              <li class="nav-item filter-5">
+                <a class="nav-link" data-bs-toggle="tab">Photoshop</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--filter menu part end -->
+
+        <!-- image part all -->
+        <div class="row content-1">
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW1.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW2.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW3.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW4.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW5.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW6.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--image part all end -->
+
+        <!-- image part app Design -->
+        <div class="row content-2">
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW2.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW3.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--image part app Design end -->
+
+        <!-- image part web design -->
+        <div class="row content-3">
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW4.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW5.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--image part web design end -->
+
+        <!-- image part UI design -->
+        <div class="row content-4">
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW6.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--image part UI design end -->
+
+        <!-- image part photoshop design -->
+        <div class="row content-5">
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW1.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW6.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- image1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="recentWorkImage">
+              <img src="/image/RW5.jpg" alt="" />
+              <div class="overlayIcon">
+                <i class="pe-7s-less"></i>
+              </div>
+              <div class="overlay"></div>
+              <div class="recentWorkText">
+                <h4>Project Title</h4>
+                <p>App Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--image part photoshop design end -->
+      </div>
+    </div>
+    <!-- recent work End -->
+
+    <!-- choose section -->
+    <div class="chooseSection">
+      <div class="container">
+        <!-- title row -->
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="commonTitle text-center">
+              <div class="commonBar"></div>
+              <div class="common-h1">Why Choose Nipro</div>
+            </div>
+          </div>
+        </div>
+        <!-- choose section row -->
+        <div class="row">
+          <!-- choose 1 -->
+          <div class="col-lg-4 col-md-6">
+            <!-- heading -->
+            <div class="chooseCard">
+              <div class="row align-items-center">
+                <div class="col-md-2 col-12">
+                  <div class="chooseIcon">
+                    <i class="pe-7s-diamond"></i>
+                  </div>
+                </div>
+                <div class="col-md-10 col-12">
+                  <div class="chooseHeader">
+                    <h4>Creative Design</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="chooseText">
+                    <p>
+                      Lorem Ipsum is simply dummy lol Is the printing
+                      typesetting industry. Lorem some
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- choose 1 end -->
+
+          <!-- choose 1 -->
+          <div class="col-lg-4 col-md-6">
+            <!-- heading -->
+            <div class="chooseCard">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <div class="chooseIcon">
+                    <i class="pe-7s-vector"></i>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="chooseHeader">
+                    <h4>Minimal Design</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="chooseText">
+                    <p>
+                      Lorem Ipsum is simply dummy lol Is the printing
+                      typesetting industry. Lorem some
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- choose 1 end -->
+          <!-- choose 1 -->
+          <div class="col-lg-4 col-md-6">
+            <!-- heading -->
+            <div class="chooseCard">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <div class="chooseIcon">
+                    <i class="pe-7s-photo"></i>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="chooseHeader">
+                    <h4>Retina Display</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="chooseText">
+                    <p>
+                      Lorem Ipsum is simply dummy lol Is the printing
+                      typesetting industry. Lorem some
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- choose 1 end -->
+          <!-- choose 1 -->
+          <div class="col-lg-4 col-md-6">
+            <!-- heading -->
+            <div class="chooseCard">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <div class="chooseIcon">
+                    <i class="pe-7s-wristwatch"></i>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="chooseHeader">
+                    <h4>Full Responsive</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="chooseText">
+                    <p>
+                      Lorem Ipsum is simply dummy lol Is the printing
+                      typesetting industry. Lorem some
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- choose 1 end -->
+          <!-- choose 1 -->
+          <div class="col-lg-4 col-md-6">
+            <!-- heading -->
+            <div class="chooseCard">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <div class="chooseIcon">
+                    <i class="pe-7s-config"></i>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="chooseHeader">
+                    <h4>Updates & Support</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="chooseText">
+                    <p>
+                      Lorem Ipsum is simply dummy lol Is the printing
+                      typesetting industry. Lorem some
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- choose 1 end -->
+          <!-- choose 1 -->
+          <div class="col-lg-4 col-md-6">
+            <!-- heading -->
+            <div class="chooseCard">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <div class="chooseIcon">
+                    <i class="pe-7s-edit"></i>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="chooseHeader">
+                    <h4>Easy to Customize</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="chooseText">
+                    <p>
+                      Lorem Ipsum is simply dummy lol Is the printing
+                      typesetting industry. Lorem some
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- choose 1 end -->
+        </div>
+      </div>
+    </div>
+    <!-- choose section End -->
+
+    <!-- Employees section -->
+    <div class="whoWorkWithUsSection">
+      <div class="container">
+        <!-- title section -->
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="commonTitle text-center">
+              <div class="commonBar"></div>
+              <div class="common-h1">Who Work With US</div>
+            </div>
+          </div>
+        </div>
+        <!-- title section end -->
+        <!-- image section -->
+        <div class="row">
+          <!-- image 1 -->
+          <div class="col-lg-3">
+            <div class="employeeImage">
+              <img src="/image/worker-1.jpg" alt="" />
+              <div class="imageCaption">
+                <h4>Ashraful Hoque</h4>
+                <p>Designer</p>
+              </div>
+              <div class="socialIcons">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- image 1 end -->
+
+          <!-- image 1 -->
+          <div class="col-lg-3">
+            <div class="employeeImage">
+              <img src="/image/worker-2.jpg" alt="" />
+              <div class="imageCaption">
+                <h4>Ashraful Hoque</h4>
+                <p>Designer</p>
+              </div>
+              <div class="socialIcons">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- image 1 end -->
+          <!-- image 1 -->
+          <div class="col-lg-3">
+            <div class="employeeImage">
+              <img src="/image/worker-3.jpg" alt="" />
+              <div class="imageCaption">
+                <h4>Ashraful Hoque</h4>
+                <p>Designer</p>
+              </div>
+              <div class="socialIcons">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- image 1 end -->
+          <!-- image 1 -->
+          <div class="col-lg-3">
+            <div class="employeeImage">
+              <img src="/image/worker-4.jpg" alt="" />
+              <div class="imageCaption">
+                <h4>Ashraful Hoque</h4>
+                <p>Designer</p>
+              </div>
+              <div class="socialIcons">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- image 1 end -->
+        </div>
+        <!-- image section end -->
+      </div>
+    </div>
+    <!-- Employees section End -->
+
+    <!-- Pricing Section -->
+    <div class="pricingSection">
+      <div class="container">
+        <!-- title Row -->
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="commonTitle text-center">
+              <div class="commonBar"></div>
+              <div class="common-h1">Best Pricing</div>
+            </div>
+          </div>
+        </div>
+        <!-- title Row end -->
+
+        <!-- pricing table row -->
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="priceCard">
+              <div class="priceCardHeading">
+                <h5>Basic</h5>
+              </div>
+              <div class="priceCardPrice">
+                <h3>$29 <span>/Per Month</span></h3>
+              </div>
+              <div class="facilityList">
+                <p>- 1Th Storage</p>
+                <p>- Unlimited Members</p>
+                <p>- 50 Project</p>
+                <p>- 70GB Bandwidth</p>
+                <p>- 24/7 Customer Support</p>
+              </div>
+              <div class="signupButton text-center vertical-align-center">
+                <a href="#">
+                  Sign Up
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="priceCard">
+              <div class="priceCardHeading">
+                <h5>standard</h5>
+              </div>
+              <div class="priceCardPrice">
+                <h3>$59 <span>/Per Month</span></h3>
+              </div>
+              <div class="facilityList">
+                <p>- 1Th Storage</p>
+                <p>- Unlimited Members</p>
+                <p>- 50 Project</p>
+                <p>- 70GB Bandwidth</p>
+                <p>- 24/7 Customer Support</p>
+              </div>
+              <div class="signupButton text-center vertical-align-center">
+                <a href="#">
+                  Sign Up
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="priceCard">
+              <div class="priceCardHeading">
+                <h5>enterprise</h5>
+              </div>
+              <div class="priceCardPrice">
+                <h3>$89 <span>/Per Month</span></h3>
+              </div>
+              <div class="facilityList">
+                <p>- 1Th Storage</p>
+                <p>- Unlimited Members</p>
+                <p>- 50 Project</p>
+                <p>- 70GB Bandwidth</p>
+                <p>- 24/7 Customer Support</p>
+              </div>
+              <div class="signupButton text-center vertical-align-center">
+                <a href="#">
+                  Sign Up
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="priceCard">
+              <div class="priceCardHeading">
+                <h5>platinum</h5>
+              </div>
+              <div class="priceCardPrice">
+                <h3>$199 <span>/Per Month</span></h3>
+              </div>
+              <div class="facilityList">
+                <p>- 1Th Storage</p>
+                <p>- Unlimited Members</p>
+                <p>- 50 Project</p>
+                <p>- 70GB Bandwidth</p>
+                <p>- 24/7 Customer Support</p>
+              </div>
+              <div class="signupButton text-center vertical-align-center">
+                <a href="#">
+                  Sign Up
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- pricing table row end -->
+      </div>
+    </div>
+    <!-- Pricing Section End -->
+
+    <!-- Rich Text -->
+    <div class="richTextSection">
+      <div class="container">
+        <div class="row vertical-align-center">
+          <div class="col-md-6 col-12 justify-left">
+            <div class="richText">
+              <p>Nipro | Responsive html Template</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 justify-right">
+            <div class="richTextButton">
+              <a href="#"
+                >Buy Now
+                <span><i class="fa-solid fa-arrow-right-long"></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Rich Text End -->
+
+    <!-- Experience Share -->
+    <div class="experienceSection">
+      <div class="container">
+        <div class="row">
+          <!-- experience part -->
+          <div class="col-lg-11 col-12 border border-1">
+            <div
+              id="customSlider1"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-lg-3 col-12">
+                      <div class="employeeImage">
+                        <img src="/image/worker-2.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-12">
+                      <div class="experienceText">
+                        <h4>Al-Rayhan</h4>
+                        <h5>Co-Founder & COO</h5>
+                        <h6>DiveserWeb</h6>
+                        <p class="">
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has
+                          survived not only five
+                        </p>
+                        <p class="">
+                          Lcenturies, but also the leap into electronic
+                          typesetting, remaining essentially like Aldus
+                          PageMaker including versions of Lorem Ipsum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-3 col-12">
+                      <div class="employeeImage">
+                        <img src="/image/worker-3.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-12">
+                      <div class="experienceText">
+                        <h4>Al-Rayhan</h4>
+                        <h5>Co-Founder & COO</h5>
+                        <h6>DiveserWeb</h6>
+
+                        <p class="">
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has
+                          survived not only five
+                        </p>
+                        <p class="">
+                          Lcenturies, but also the leap into electronic
+                          typesetting, remaining essentially like Aldus
+                          PageMaker including versions of Lorem Ipsum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-3 col-12">
+                      <div class="employeeImage">
+                        <img src="/image/worker-4.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-12">
+                      <div class="experienceText">
+                        <h4>Al-Rayhan</h4>
+                        <h5>Co-Founder & COO</h5>
+                        <h6>DiveserWeb</h6>
+                        <p class="">
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has
+                          survived not only five
+                        </p>
+                        <p class="">
+                          Lcenturies, but also the leap into electronic
+                          typesetting, remaining essentially like Aldus
+                          PageMaker including versions of Lorem Ipsum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Button part -->
+          <div class="col-lg-1 col-12">
+            <div class="buttonPart text-center border border-1">
+              <div class="row">
+                <div class="indicator-2">
+                  <button
+                    type="button"
+                    data-bs-target="#customSlider1"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#customSlider1"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#customSlider1"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="prevBtn1">
+                  <button
+                    type="button"
+                    class="experience_prevnext"
+                    data-bs-target="#customSlider1"
+                    data-bs-slide="prev"
+                  >
+                    <div class="box1">Prev</div>
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="box2">
+                  <span><i class="fa-solid fa-bars"></i></span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="nextBtn1">
+                  <button
+                    type="button"
+                    class="experience_prevnext"
+                    data-bs-target="#customSlider1"
+                    data-bs-slide="next"
+                  >
+                    <div class="box3">Next</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Experience Share End -->
+
+    <!-- 11 CONTACT US SECTION -->
+
+    <!-- CONTACT US START -->
+    <section id="contact">
+      <div class="container">
+        <div class="container-border">
+          <div class="contact-Title">
+            <h1 class="common-h1">Contact Us</h1>
+          </div>
+          <div class="row contact-form">
+            <div class="col-lg-6 form-field">
+              <input
+                id="fname"
+                class="input-text"
+                type="text"
+                name=""
+                placeholder="First Name"
+              />
+            </div>
+            <div class="col-lg-6 form-field">
+              <input
+                id="Lname"
+                class="input-text"
+                type="text"
+                name=""
+                placeholder="Last Name"
+              />
+            </div>
+          </div>
+
+          <div class="row contact-form-2">
+            <div class="col-lg-12 email-field">
+              <input
+                id="email"
+                class="input-text-2"
+                type="text"
+                name=""
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-lg-12 textarea-field">
+              <textarea
+                class="textArea"
+                placeholder="Your Message...."
+                id="textArea"
+              ></textarea>
+            </div>
+            <div class="sendNowbtn text-center vertical-align-center">
+              <a href="#">
+                Sign Up
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT US END -->
+    <!-- 11 CONTACT US SECTION END -->
+    <!-- footer Section -->
+    <div class="footer">
+      <div class="container">
+        <!-- title Row -->
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="commonTitle text-center">
+              <div class="footerTitleBar"></div>
+              <div class="common-h1">Nipro Agency</div>
+            </div>
+          </div>
+        </div>
+        <!-- title Row end -->
+
+        <!-- Second row -->
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="footerText text-center">
+              <p class="commonParagraph">
+                Lorem Ipsum is simply dummy text of lol he the printing and
+                typesetting industry. Lorem Ipsum Has been the koi jabi mama
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Second row  end-->
+
+        <!-- third Row -->
+        <div class="row text-center">
+          <div class="container">
+            <div class="col-lg-12">
+              <div class="socialIcon2">
+                <ul>
+                  <li>
+                    <a href=""
+                      ><i class="fa-brands fa-dribbble me-2 ms-2"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-brands fa-behance me-2 ms-2"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-brands fa-twitter me-2 ms-2"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-brands fa-google-plus-g me-2 ms-2"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-brands fa-google-plus-g me-2 ms-2"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- third Row End-->
+        <!-- fourth Row -->
+        <div class="row text-sm-center">
+          <div class="col-lg-6 col-12">
+            <div class="footerMenu ftext">
+              <p>All rights reserved NIPRO AGENCY | By : Ashraful Anas</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="footerMenu ftext">
+              <ul>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">ContactUs</a></li>
+                <li><a href="#">Term of use</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- fourth Row End -->
+      </div>
+    </div>
+    <!-- footer Section End-->
+
+    <!-- bootstrap js bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".content-1").show();
+        $(".content-2").hide();
+        $(".content-3").hide();
+        $(".content-4").hide();
+        $(".content-5").hide();
+        $(".filter-1").addClass("activeTab");
+
+        $(".filter-1").click(function () {
+          $(".content-1").show();
+          $(".content-2").hide();
+          $(".content-3").hide();
+          $(".content-4").hide();
+          $(".content-5").hide();
+        });
+        $(".filter-2").click(function () {
+          $(".content-1").hide();
+          $(".content-2").show();
+          $(".content-3").hide();
+          $(".content-4").hide();
+          $(".content-5").hide();
+        });
+        $(".filter-3").click(function () {
+          $(".content-1").hide();
+          $(".content-2").hide();
+          $(".content-3").show();
+          $(".content-4").hide();
+          $(".content-5").hide();
+        });
+        $(".filter-4").click(function () {
+          $(".content-1").hide();
+          $(".content-2").hide();
+          $(".content-3").hide();
+          $(".content-4").show();
+          $(".content-5").hide();
+        });
+        $(".filter-5").click(function () {
+          $(".content-1").hide();
+          $(".content-2").hide();
+          $(".content-3").hide();
+          $(".content-4").hide();
+          $(".content-5").show();
+        });
+      });
+    </script>
+  </body>
+</html>

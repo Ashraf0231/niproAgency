@@ -1,0 +1,81 @@
+/* common part of CSS */
+:root {
+  --Color-1: #333333; /*--color-2*/
+  --Color-2: #8e8e8e; /*--color-3*/
+  --Color-3: #f8f8f8; /*--color-4*/
+  --Color-4: #ffffff; /*--color-1*/
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+img {
+  width: 100%;
+}
+p,
+span {
+  margin: 0rem;
+}
+ul,
+li {
+  list-style: none;
+}
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.btn,
+.btn:hover {
+  outline: none;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.btn {
+  background: var(--color-1);
+  padding: 1.2rem 3.8rem;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+.commonTitle {
+}
+.commonBar {
+  width: 2px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid #333333;
+  margin-bottom: 25px;
+}
+
+.common-h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+}
+.commonParagraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+
+/* common part of CSS end*/

@@ -1,0 +1,20 @@
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* slider Section */
+  .slider-section {
+    background-position: top center;
+  }
+  .customSlider h1 {
+    font-size: 35px;
+  }
+  .customSlider p {
+    padding-right: 100px;
+  }
+  .customSlider button {
+    width: 180px;
+  }
+  .customSlider button span {
+    padding-left: 15px;
+  }
+  /* slider Section */
+}

@@ -1,0 +1,75 @@
+.footer {
+  background-image: url(/image/footerbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  margin-top: 100px;
+}
+.footerTitleBar {
+  width: 2px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  border: 1px solid #333333;
+}
+.footerText {
+  margin: 35px 0 35px;
+  padding: 0 15px;
+}
+.footerText p {
+  color: #fff !important;
+}
+.socialIcon2 {
+}
+.socialIcon2 ul {
+  padding: 0px;
+}
+
+.socialIcon2 ul li {
+  display: inline-block;
+  border: 1px solid white;
+  margin: 5px 7px;
+}
+.socialIcon2 ul li a {
+  font-size: 26px;
+  color: white;
+  text-decoration: none;
+}
+
+.socialIcon2 ul li a i {
+}
+.socialIcon2 i:hover {
+}
+.ftext {
+}
+
+.footerMenu {
+  margin-top: 100px;
+  padding: 40px 0;
+}
+.footerMenu ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.footerMenu ul li {
+  padding-left: 35px;
+}
+
+.footerMenu ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footerMenu p {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+
+.socialIcon2 ul li:hover {
+  background-color: white;
+}
+.socialIcon2 ul li:hover a {
+  color: var(--Color-1);
+}

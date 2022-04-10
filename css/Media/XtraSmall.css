@@ -1,0 +1,195 @@
+/* // ExtraSmall devices (up to  575.98px) */
+@media (max-width: 575.98px) {
+  .serviceSection {
+  }
+
+  .commonBar {
+    height: 45px;
+    margin-bottom: 25px;
+  }
+  .common-h1 {
+    font-size: 25px;
+  }
+  .paragraphService {
+  }
+  .paragraphService p {
+    margin-top: 30px;
+  }
+  .serviceCard {
+    margin-top: 80px;
+  }
+  .serviceCard h2 {
+    margin-top: 70px;
+  }
+  .serviceCard hr {
+    margin: 20px auto;
+  }
+  .serviceCard p {
+    margin-bottom: 40px;
+  }
+  .serviceCard a {
+  }
+  .serviceCard a span {
+    margin-left: 20px;
+  }
+  .serviceCard a span i {
+  }
+
+  .serviceIcon {
+  }
+  .serviceIcon i {
+  }
+
+  /* about Section */
+  .aboutImage {
+    text-align: center !important;
+    margin-bottom: 25px !important;
+  }
+  .aboutText {
+    text-align: center !important;
+  }
+  .aboutText h1 {
+    margin-bottom: 25px !important;
+  }
+  .aboutText p {
+    text-align: justify !important ;
+    margin-bottom: 25px !important;
+  }
+
+  /* about Section End */
+
+  /* recent Work section */
+  .recentWorkSection .commonTitle {
+    margin-bottom: 50px !important;
+  }
+  .recentWorkImage {
+    margin-top: 30px !important;
+  }
+  /* choose section */
+  .chooseHeader {
+    text-align: center;
+  }
+  .chooseIcon {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .chooseText p {
+    text-align: center;
+  }
+  /* price card */
+  .priceCard {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* price card */
+  .chooseCard {
+    /* position: relative; */
+    margin-top: 50px;
+  }
+  /* .richText */
+  .richText,
+  .richTextButton {
+    padding: 25px 0;
+  }
+  .richText {
+    font-size: 16px;
+  }
+  .justify-right {
+    display: flex;
+    justify-content: center;
+  }
+  .justify-left {
+    display: flex;
+    justify-content: center;
+  }
+  /* rich text */
+  .whoWorkWithUsSection .employeeImage {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .whoWorkWithUsSection .employeeImage {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    text-align: center;
+  }
+
+  .experienceText {
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+  }
+  .whoWorkWithUsSection .employeeImage img {
+    width: 100%;
+  }
+  .experienceText {
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+  }
+  .experienceText h4 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .experienceText h5 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .experienceText h6 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .experienceText p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .buttonPart {
+    display: none !important;
+  }
+  .socialIcon2 {
+    margin-bottom: 30px;
+  }
+  .socialIcon2 ul li a {
+    font-size: 20px;
+  }
+
+  .footerMenu {
+    margin-top: 0px;
+    padding: 20px 0;
+  }
+  .footerMenu p {
+    font-size: 12px;
+  }
+  .footerMenu ul {
+    display: flex;
+    justify-content: center;
+  }
+  .footerMenu ul li {
+    font-size: 11px;
+  }
+
+  .footerMenu p {
+    display: flex;
+    justify-content: center;
+  }
+  .footerMenu ul li:nth-child(1) {
+    padding-left: 0px;
+  }
+  .contact-form .form-field {
+    margin: 50px 0px 10px 0;
+  }
+  #fname,
+  #Lname {
+    float: none;
+    margin: 0 auto;
+  }
+  .contact-form-2 .email-field {
+    margin: 50px 0 40px 0;
+  }
+  .contact-form-2 .input-text-2,
+  .contact-form-2 .textArea {
+    width: 57%;
+  }
+
+  .contact-Title {
+    padding: 0 15px 0;
+  }
+}

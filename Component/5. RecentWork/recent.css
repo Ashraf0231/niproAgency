@@ -1,0 +1,107 @@
+.recentWorkSection .commonTitle {
+  margin-bottom: 100px;
+}
+/* filterMenu */
+
+.recentWorkSection {
+  background-color: #f8f8f8;
+  margin-bottom: 100px;
+}
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: 1px solid transparent;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.nav-link.active,
+.nav-item.show .nav-link {
+  color: var(--Color-1) !important;
+  font-weight: 700;
+  background-color: none !important;
+  border-color: black !important;
+}
+
+.nav-tabs {
+  border-bottom: 0 !important;
+}
+
+.recentWorkSection ul {
+}
+.recentWorkSection ul li {
+}
+.recentWorkSection ul li a {
+  font-family: "Roboto", sans-serif;
+  color: #8e8e8e;
+}
+.recentWorkSection ul li a:hover {
+  color: #8e8e8e;
+}
+
+/* image Part CSS */
+.recentWorkImage {
+  position: relative;
+  margin-top: 50px;
+}
+.recentWorkImage img {
+  width: 100%;
+}
+.recentWorkImage .overlayIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.recentWorkImage .overlayIcon i {
+  font-size: 60px;
+  color: red;
+  opacity: 0;
+  transition: 0.3s;
+}
+.recentWorkImage:hover .overlayIcon i {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: #00000050;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+.recentWorkImage:hover .overlay {
+  opacity: 1;
+}
+.recentWorkText {
+  padding: 15px 30px;
+  background-color: var(--Color-4);
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.recentWorkImage:hover .recentWorkText {
+  opacity: 1;
+}
+.recentWorkText h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--Color-1);
+  text-transform: uppercase;
+}
+.recentWorkText p {
+}
+
+.activeTab {
+}
+.nav-item {
+  border: none !important;
+}

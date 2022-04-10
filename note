@@ -1,0 +1,38 @@
+font-family: 'Roboto', sans-serif; font-family: 'Lato', sans-serif; header font
+color: #8e8e8e header menu hover: #333333
+
+<!-- About us section -->
+<section class="aboutusSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="aboutusImg">
+          <img src="./image/about-us.jpg" alt="Nipro" />
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="aboutusContent">
+          <h1>About us</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industr hello Ipsum has been the industry's standard dummy text ever
+            since the 1500s, ian unknown printer took a galley omen book. It has
+            survived not only five ies, but also the leap into electronic
+            typesetting, remaining essentially un also the leap into electronic
+            typesetting, remaining essentially un
+          </p>
+          <p>
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            heo and more recently with desktop publishing software like A
+            PageMaker including versions of Lorem Ipsum
+          </p>
+          <button type="button">
+            Learn More
+            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About us section End -->

@@ -1,0 +1,52 @@
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* headerSection */
+  .menu ul li a {
+    padding: 10px 0 0 !important;
+    font-size: 20px;
+    text-align: right;
+  }
+  .search {
+    text-align: right;
+  }
+  .nav-item {
+    padding: 0 5px !important;
+  }
+  .col-2 {
+    text-align: center;
+  }
+  .dropdown-toggle {
+    padding-top: 10px;
+  }
+  .dropdown-menu[data-bs-popper] {
+    top: -10px !important;
+    left: 250px !important;
+    right: 5px !important;
+  }
+  .form-control {
+    width: 100% !important;
+    margin: 0 10px !important;
+  }
+  .button {
+    padding: 0.375rem 0rem !important;
+  }
+  /* headerSection */
+
+  /* slider Section */
+  .slider-section {
+    background-position: top center;
+  }
+  .customSlider h1 {
+    font-size: 30px;
+  }
+  .customSlider p {
+    padding-right: 120px;
+  }
+  .customSlider button {
+    width: 180px;
+  }
+  .customSlider button span {
+    padding-left: 15px;
+  }
+  /* slider Section */
+}

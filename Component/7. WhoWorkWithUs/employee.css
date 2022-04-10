@@ -1,0 +1,68 @@
+.whoWorkWithUsSection {
+  background-image: url(/image/Background-EmployeeInfo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top bottom center;
+}
+.whoWorkWithUsSection .employeeImage {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.whoWorkWithUsSection .employeeImage img {
+  width: 100%;
+}
+.imageCaption {
+  background: var(--Color-4);
+  padding: 15px 0 20px 30px;
+}
+.imageCaption h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--Color-1);
+}
+.imageCaption p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e8e;
+  margin-bottom: 0 !important;
+}
+
+.socialIcons {
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  opacity: 0;
+  transition: 0.3s;
+}
+.socialIcons ul {
+  padding: 0 !important;
+}
+.socialIcons ul li {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+.socialIcons ul li a {
+  color: var(--Color-2);
+}
+.socialIcons ul li a i {
+  font-size: 20px;
+}
+.socialIcons ul li:hover {
+  border-right: 2px solid var(--Color-1);
+  background-color: #50c45a;
+}
+.socialIcons ul li:hover a {
+  color: var(--Color-1);
+}
+.employeeImage:hover .socialIcons {
+  opacity: 1;
+}
